@@ -18,7 +18,10 @@
     "ignore" : [
         "README.md",
         "LICENSE",
-        "agitationTest.html"
+        "agitationTest.html",
+	"bower.json",
+	".bower.json",
+	".bowerrc"
     ],
     "dependencies" : {},
     "devDependencies" : {}
