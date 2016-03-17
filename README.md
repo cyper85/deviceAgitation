@@ -14,7 +14,7 @@ in your app</li>
 window.addEventListener('x-deviceagitation', EventListener , false);
 ```
 </li>
-
+</ul>
 ## Demo
 
 [You'll find here a demo](http://cyper85.github.io/deviceAgitation/).
