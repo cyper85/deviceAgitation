@@ -1,0 +1,25 @@
+{
+    "name" : "deviceAgitation",
+    "version" : "1.0.0",
+    "authors" : [
+        "Andreas Neumann <andr.neumann@googlemail.com>"
+    ],
+    "description" : "Triggert beim schütteln eines mobilen Endgerätes das Event x-deviceagitation",
+    "keywords" : [
+        "javascript",
+        "devicemotion",
+        "deviceagitation",
+        "event",
+        "nativ"
+    ],
+    "license" : "GNU v3",
+    "homepage" : "https://github.com/cyper85/deviceAgitation/",
+    "private" : false,
+    "ignore" : [
+        "README.md",
+        "LICENSE",
+        "agitationTest.html"
+    ],
+    "dependencies" : {},
+    "devDependencies" : {}
+}
