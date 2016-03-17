@@ -3,18 +3,16 @@ JavaScript-Event to trigger agitation of a device
 
 ## Installation
 
-<ol>
-<li>include 
+include 
 ```html
 <script src="path/to/deviceAgitation.js"></script>
 ```
-in your app</li>
-<li>listen for **x-deviceagitation**-Events on the **window** 
+in your app
+
+listen for **x-deviceagitation**-Events on the **window** 
 ```javascript
 window.addEventListener('x-deviceagitation', EventListener , false);
 ```
-</li>
-</ol>
 
 ## Demo
 
