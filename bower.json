@@ -12,7 +12,7 @@
         "event",
         "nativ"
     ],
-    "license" : "GNU v3",
+    "license" : "GNU GPL v3",
     "homepage" : "https://github.com/cyper85/deviceAgitation/",
     "private" : false,
     "ignore" : [
