@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='de'>
+	<head>
+		<meta charset="utf-8" />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
+		<title>Sch&uuml;tteltest</title>
+	</head>
+	<body>
+		<center>More informations on <a href="https://github.com/cyper85/deviceAgitation">github</a>.<br/>Agitate your Device. For each axe you get another color.</center>
+		<style>
+			center {
+				margin-top:40%;
+				font-weight: bold;
+			}
+		</style>
+		<script src="deviceAgitation.js"></script>
+		<script>
+			var showColors = function(event) {
+				if(typeof event.detail.axe == "undefined") {
+					document.body.style.backgroundColor = 'black';
+					document.body.style.color = 'white';
+				}
+				else if(event.detail.axe == "x") {
+					document.body.style.backgroundColor = 'blue';
+					document.body.style.color = 'white';
+				}
+				else if(event.detail.axe == "y") {
+					document.body.style.backgroundColor = 'green';
+					document.body.style.color = 'black';
+				}
+				else if(event.detail.axe == "z") {
+					document.body.style.backgroundColor = 'red';
+					document.body.style.color = 'white';
+				}
+			}
+			window.addEventListener('x-deviceagitation', showColors , false);
+		</script>
+	</body>
+</html>
